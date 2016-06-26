@@ -29,7 +29,7 @@ class Payment extends \Magento\Payment\Model\Method\Cc
 
     protected $_minAmount = null;
     protected $_maxAmount = null;
-    protected $_supportedCurrencyCodes = array('USD');
+    protected $_supportedCurrencyCodes = array('AUD');
 
     protected $_debugReplacePrivateDataKeys = ['number', 'exp_month', 'exp_year', 'cvc'];
 
